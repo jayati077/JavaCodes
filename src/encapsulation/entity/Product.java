@@ -16,6 +16,7 @@ public class Product {
         System.out.println("Thee are called parameteried Contructor:");
 
     }
+    //getters and setters
     public long getProduct_Id() {
         return product_Id;
     }
