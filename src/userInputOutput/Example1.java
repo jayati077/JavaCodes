@@ -5,7 +5,7 @@ import java.lang.*;
 
 public class Example1 {
     public static void main(String[] args){
-         int x ;
+        int x ;
         Scanner input = new Scanner(System.in);
         System.out.println("Enter the value of x :");
 
