@@ -6,13 +6,14 @@ public class Product {
     private String product_description;
     private  float avg_Rating;
 
-
+//parameterised Constructor
 
     public Product(long product_Id, String product_Name, String product_description, float avg_Rating) {
         this.product_Id = product_Id;
         this.product_Name=product_Name;
         this.product_description=product_description;
         this.avg_Rating=avg_Rating;
+        System.out.println("Thee are called parameteried Contructor:");
 
     }
     public long getProduct_Id() {
@@ -55,5 +56,6 @@ public class Product {
                 ", product_description='" + product_description + '\'' +
                 ", avg_Rating=" + avg_Rating +
                 '}';
+
     }
 }
