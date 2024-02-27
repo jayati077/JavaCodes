@@ -1,8 +1,6 @@
-package encapsulation;
+package oopsInJava.encapsulation;
 
-import encapsulation.entity.Student;
-
-import java.util.Scanner;
+import oopsInJava.encapsulation.entity.Student;
 
 public class Example1 {
     public static void main(String[] args) {

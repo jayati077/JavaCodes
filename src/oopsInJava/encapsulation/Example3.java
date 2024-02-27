@@ -1,6 +1,6 @@
-package encapsulation;
+package oopsInJava.encapsulation;
 
-import encapsulation.entity.Product;
+import oopsInJava.encapsulation.entity.Product;
 
 public class Example3 {
     public static void main(String[] args) {

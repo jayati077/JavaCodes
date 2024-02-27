@@ -1,4 +1,4 @@
-package encapsulation;
+package oopsInJava.encapsulation;
 
 public class Employee {
     private  String employee_Id;

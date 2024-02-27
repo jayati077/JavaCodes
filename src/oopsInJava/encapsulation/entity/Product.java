@@ -1,4 +1,4 @@
-package encapsulation.entity;
+package oopsInJava.encapsulation.entity;
 
 public class Product {
     private long product_Id;

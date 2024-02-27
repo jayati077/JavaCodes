@@ -1,4 +1,4 @@
-package encapsulation.entity;
+package oopsInJava.encapsulation.entity;
 
 public class Student {
     //Data members
@@ -28,18 +28,22 @@ public class Student {
 
 
     public String getFirstName() {
+
         return firstName;
     }
 
     public void setFirstName(String firstName) {
+
         this.firstName = firstName;
     }
 
     public String getMiddleName() {
+
         return middleName;
     }
 
     public void setMiddleName(String middleName) {
+
         this.middleName = middleName;
     }
 
