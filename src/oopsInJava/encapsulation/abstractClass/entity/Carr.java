@@ -5,14 +5,14 @@ public abstract class Carr {
     private String fuel_Type;
 
 
-    public Carr(String colour,String fuel_Type){
-       this.fuel_Type=fuel_Type;
-       this.colour=colour;
-    }
-
-    public Carr() {
-
-    }
+//    public Carr(String colour,String fuel_Type){
+//       this.fuel_Type=fuel_Type;
+//       this.colour=colour;
+//    }
+//
+//    public Carr() {
+//
+//    }
 
     public abstract void startengine();
     public void onAc(){

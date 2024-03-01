@@ -30,4 +30,5 @@ public class Mobile implements MusicPlayer, Camera {
     public void recordVideo(){
         System.out.println("Video started..");
     }
+
 }

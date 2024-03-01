@@ -6,6 +6,12 @@ public class App2 {
     public static void main(String[] args) {
         Hyndai hyndai = new Hyndai("white");
         System.out.println(hyndai);
+        Carr carr1 = new Carr() {
+            @Override
+            public void startengine() {
+
+            }
+        };
         Carr carr = (Carr) hyndai;
         carr.onAc();
         carr.startengine();
