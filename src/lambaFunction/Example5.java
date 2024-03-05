@@ -4,10 +4,10 @@ package lambaFunction;
 import java.io.Console;
 
 @FunctionalInterface
-interface Console{
+interface Console1{
     int run();
 }
-class ConsoleRunner implements Console{
+class ConsoleRunner implements Console1{
 
      public String gameData;
 
@@ -41,7 +41,7 @@ public class Example5 {
 
     public static void main(String[] args) {
         NintendoCD game= new NintendoCD();
-        Console c = new ConsoleRunner(game.data);
+        Console1 c = new ConsoleRunner(game.data);
         c.run();
         ConsoleRunner v= new ConsoleRunner(game.data);
 
