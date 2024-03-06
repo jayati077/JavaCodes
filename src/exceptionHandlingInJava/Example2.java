@@ -1,4 +1,4 @@
-package errorHandlingInJava;
+package exceptionHandlingInJava;
 //using try and catch block for error handling
 public class Example2 {
     public static void main(String[] args) {

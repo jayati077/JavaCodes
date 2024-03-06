@@ -1,4 +1,4 @@
-package errorHandlingInJava;
+package exceptionHandlingInJava;
 //Example of Arithmetic exception in java
 public class Example1 {
     public static void main(String[] args) {
