@@ -1,10 +1,32 @@
+/**
+ * @author jayati dayaramani
+ */
+
+
 package annotationsInJava;
+/**
+ * @author jayati dayaramani
+ * @brief Class For Modelling the message services
+ * @version 1.0
+ * @since 06/3/24
+ * @see java.security.Provider.Service
+ * @link docs.oracle.com/java
+ */
 class MessageService{
+
     static String provider;
     String sender;
     String recipient;
     String message;
+    /**
+     * @param
+     * @return void
+     * @throws
+     * @exception
+     * @deprecated
+     */
     MessageService(){
+
         System.out.println("Running message Service");
     }
     public String getRecipient(){
