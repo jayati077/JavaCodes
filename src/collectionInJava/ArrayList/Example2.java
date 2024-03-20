@@ -23,7 +23,7 @@ public class Example2 {
             arr1.addAll(List.of('C','D','E'));
             System.out.println("Array after the allAll(collection<>): " + arr1);
 
-            arr1.addAll(2,List.of('F','G','H'));
+            arr1.addAll(2,List.of('F','G','H','I'));
             System.out.println("Arrays after the allAll(int, collection<>): " + arr1);
 
 
@@ -40,7 +40,7 @@ public class Example2 {
             result = arr1.contains('A');
             System.out.println("Collection contains 'A' : " + result);
 
-            arr1.ensureCapacity(18);
+            arr1.ensureCapacity(10);
 
             for (int x: arr2){
                 System.out.println((char)x);
